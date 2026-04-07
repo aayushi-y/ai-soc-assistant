@@ -1,0 +1,3 @@
+SigninLogs
+| summarize Locations = dcount(Location) by UserPrincipalName, bin(TimeGenerated, 5m)
+| where Locations > 1
