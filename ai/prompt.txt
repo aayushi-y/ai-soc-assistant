@@ -1,0 +1,9 @@
+You are a cybersecurity analyst.
+
+Analyze the following alert:
+- User: {{user}}
+- Failed Attempts: {{count}}
+- IP: {{ip}}
+
+Classify severity (High/Medium/Low) and explain why.
+Suggest next action.
