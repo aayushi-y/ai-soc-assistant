@@ -1,0 +1,5 @@
+{
+  "severity": "High",
+  "reason": "Multiple failed login attempts from a suspicious IP indicate brute force attack.",
+  "action": "Block IP and investigate user account."
+}
